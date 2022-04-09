@@ -16,8 +16,8 @@ jobs:
       # instalacja wymaganych bibliotek
       - name: Install deps
         run: make deps
-      - name: Linter
-        run: make linter 
+      - name: Lint
+        run: make lint
       # testy!!!!!
       - name: Tests
         run: make test
